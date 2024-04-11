@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Orchestrate",
   description: "Orchestrate is a platform for event management.",
   icons:{
-    icon: '/assets/images/logo.png'
+    icon: '/assets/images/logo.png',
   }
 };
 
