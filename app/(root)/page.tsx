@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import {Button} from '../../components/ui/button';
 import Image from 'next/image';
-import Hero from '../../public /assets/images/hero.png';
+import Hero from '../../public /assets/images/hero.jpeg';
 
 
 export default function Home() {
@@ -19,7 +19,7 @@ export default function Home() {
               </Link>
             </Button>
         </div>
-        <Image src={Hero} alt='hero' className='max-h-[70h] 2xl:max-h-[50h] object-contain object-center'/>
+        <Image src={Hero} alt='hero' className='max-h-[70h] 2xl:max-h-[50h] object-contain object-center rounded-3xl'/>
         </div>
       </section>
 
