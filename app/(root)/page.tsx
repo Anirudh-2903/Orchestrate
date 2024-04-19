@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Hero from '../../public /assets/images/hero.jpeg';
 import Collection from '@/components/shared/Collection';
 import { getAllEvents } from '@/lib/actions/event.actions';
+import Search from '@/components/shared/Search';
 
 
 export default async function Home() {
@@ -31,7 +32,7 @@ export default async function Home() {
       <section id="events" className='wrapper my-8 flex flex-col gap-8 md:gap-12'>
         <h2 className='h2-bold'>Trusted by <br /> Thousands of Events</h2>
         <div className='w-full gap-5 flex flex-col md:flex-row'>
-          Search
+          <Search />
           CategoryFilter
         </div>
         <Collection data={events?.data} emptyTitle="No Events Found" emptyStateSubText="Come back later"
