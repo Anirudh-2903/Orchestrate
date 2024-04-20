@@ -16,7 +16,7 @@ type CollectionProps = {
 }
 
 const Collection = ({data,emptyTitle,emptyStateSubText,
-                    collectionType,limit,page,urlParamName,totalPages = 0} : CollectionProps) => {
+                    collectionType,page,urlParamName,totalPages = 0} : CollectionProps) => {
   return (
     <>
       {data?.length > 0 ? (
