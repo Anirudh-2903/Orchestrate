@@ -5,11 +5,16 @@ import Hero from '../../public /assets/images/hero.jpeg';
 import Collection from '@/components/shared/Collection';
 import { getAllEvents } from '@/lib/actions/event.actions';
 import Search from '@/components/shared/Search';
+import { SearchParamProps } from '@/types';
 
 
-export default async function Home() {
+export default async function Home({searchParams}: SearchParamProps) {
 
-  const events = await getAllEvents({query: '', limit: 6, page: 1, category: ''});
+  const page = Number(searchParams?.page) || 1;
+  const searchText = (searchParams?.query as string) || '';
+  const category = (searchParams?.category as string) || '';
+
+  const events = await getAllEvents({query: searchText, limit: 6, page: page, category: category});
 
   return (
     <>
