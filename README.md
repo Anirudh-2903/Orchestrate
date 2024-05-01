@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/-Stripe-black?style=for-the-badge&logoColor=white&logo=stripe&color=008CDD" alt="stripe" />
   </div>
 
-  <h3 align="center">A Full Stack Next 14 Event Management App</h3>
+  <h3 align="center">Orchestrate - A Full Stack Next 14 Event Management App</h3>
 
 </div>
 
