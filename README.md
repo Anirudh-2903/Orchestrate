@@ -149,3 +149,5 @@ Use the following card for any mock payments:
 **For Expiry Date :** Give a future date
 
 **For CVV :** Give a random 3-digit number
+
+---
