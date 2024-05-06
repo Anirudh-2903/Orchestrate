@@ -64,8 +64,6 @@ Built on Next.js 14, the event management application stands as a comprehensive,
 👉 **New Category:** Dynamic categorization allows for the seamless addition of new event categories, keeping your platform adaptable.
 
 👉 **Checkout and Pay with Stripe:** Smooth and secure payment transactions using Stripe, enhancing user experience during the checkout process.    
-                                    (Use Stripe Test Card 4000 0035 6000 0008 for test payment)
-
 
 👉 **Event Orders:** Comprehensive order management system, providing a clear overview of all event-related transactions.
 
@@ -88,8 +86,8 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/your-username/your-project.git
-cd your-project
+git clone https://github.com/Anirudh-2903/Orchestrate.git
+cd Orchestrate
 ```
 
 **Installation**
@@ -140,3 +138,14 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+
+**Making Mock Payments**
+
+Use the following card for any mock payments:
+
+```bash
+4000 0035 6000 0008
+```
+**For Expiry Date :** Give a future date
+
+**For CVV :** Give a random 3-digit number
