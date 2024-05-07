@@ -10,7 +10,8 @@ export const metadata: Metadata = {
   description: "Orchestrate is a platform for event management.",
   icons:{
     icon: '/assets/images/logo.png',
-  }
+  },
+  manifest: '/manifest.json',
 };
 
 export default function RootLayout({
