@@ -1,4 +1,4 @@
-import Search  from '@/Components/shared/Search'
+import Search  from '../../../Components/shared/Search'
 import { getOrdersByEvent } from '@/lib/actions/order.actions'
 import { formatDateTime, formatPrice } from '@/lib/utils'
 import { SearchParamProps } from '@/types'

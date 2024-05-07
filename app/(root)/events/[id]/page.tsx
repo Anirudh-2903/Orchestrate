@@ -5,8 +5,8 @@ import Location from '../../../../public/assets/icons/location.svg';
 import Image from 'next/image';
 import React from 'react';
 import { formatDateTime } from '@/lib/utils';
-import Collection from '@/Components/shared/Collection';
-import CheckoutButton from '@/Components/shared/CheckoutButton';
+import Collection from '../../../../Components/shared/Collection';
+import CheckoutButton from '../../../../Components/shared/CheckoutButton';
 
 const EventDetails = async ({params: {id} , searchParams}: SearchParamProps) => {
 

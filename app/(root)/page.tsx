@@ -2,11 +2,11 @@ import Link from 'next/link';
 import {Button} from '../../Components/ui/button';
 import Image from 'next/image';
 import Hero from '../../public/assets/images/hero.jpeg';
-import Collection from '@/Components/shared/Collection';
+import Collection from '../../Components/shared/Collection';
 import { getAllEvents } from '@/lib/actions/event.actions';
-import Search from '@/Components/shared/Search';
+import Search from '../../Components/shared/Search';
 import { SearchParamProps } from '@/types';
-import CategoryFilter from '@/Components/shared/CategoryFilter';
+import CategoryFilter from '../../Components/shared/CategoryFilter';
 
 
 export default async function Home({searchParams}: SearchParamProps) {
