@@ -14,7 +14,7 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from '@/components/ui/alert-dialog'
+} from '@/Components/ui/alert-dialog'
 
 import { deleteEvent } from '@/lib/actions/event.actions'
 import Delete from '../../public/assets/icons/delete.svg';

@@ -3,12 +3,12 @@
 import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form"
 import * as z from "zod"
-import { Button } from "@/components/ui/button"
-import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form"
-import { Input } from "@/components/ui/input"
+import { Button } from "@/Components/ui/button"
+import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "@/Components/ui/form"
+import { Input } from "@/Components/ui/input"
 import DatePicker from 'react-datepicker'
 import "react-datepicker/dist/react-datepicker.css"
-import { Textarea } from "@/components/ui/textarea"
+import { Textarea } from "@/Components/ui/textarea"
 import eventFormSchema from "@/lib/validator"
 import { eventDefaultValues } from "@/constants"
 import Location from '../../public/assets/icons/location-grey.svg';
@@ -17,7 +17,7 @@ import Rupee from '../../public/assets/icons/rupee.svg';
 import Link from '../../public/assets/icons/link.svg';
 import Dropdown from "./Dropdown"
 import { FileUploader } from "./FileUploader"
-import { Checkbox } from "@/components/ui/checkbox"
+import { Checkbox } from "@/Components/ui/checkbox"
 import {useUploadThing} from '@/lib/uploadthing'
 import { useState } from "react"
 import Image from "next/image"
