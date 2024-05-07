@@ -11,10 +11,10 @@ import "react-datepicker/dist/react-datepicker.css"
 import { Textarea } from "@/components/ui/textarea"
 import eventFormSchema from "@/lib/validator"
 import { eventDefaultValues } from "@/constants"
-import Location from '../../public /assets/icons/location-grey.svg';
-import Calendar from '../../public /assets/icons/calendar.svg';
-import Rupee from '../../public /assets/icons/rupee.svg';
-import Link from '../../public /assets/icons/link.svg';
+import Location from '../../public/assets/icons/location-grey.svg';
+import Calendar from '../../public/assets/icons/calendar.svg';
+import Rupee from '../../public/assets/icons/rupee.svg';
+import Link from '../../public/assets/icons/link.svg';
 import Dropdown from "./Dropdown"
 import { FileUploader } from "./FileUploader"
 import { Checkbox } from "@/components/ui/checkbox"

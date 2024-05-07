@@ -3,8 +3,8 @@ import { formatDateTime } from '@/lib/utils';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
-import Search from '../../public /assets/icons/arrow.svg';
-import Edit from '../../public /assets/icons/edit.svg';
+import Search from '../../public/assets/icons/arrow.svg';
+import Edit from '../../public/assets/icons/edit.svg';
 import { auth } from '@clerk/nextjs';
 import { Delete } from 'lucide-react';
 import { DeleteConfirmation } from './DeleteConfirmation';

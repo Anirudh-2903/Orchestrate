@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import {Button} from '../../components/ui/button';
 import Image from 'next/image';
-import Hero from '../../public /assets/images/hero.jpeg';
+import Hero from '../../public/assets/images/hero.jpeg';
 import Collection from '@/components/shared/Collection';
 import { getAllEvents } from '@/lib/actions/event.actions';
 import Search from '@/components/shared/Search';

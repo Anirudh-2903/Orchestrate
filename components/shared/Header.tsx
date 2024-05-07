@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Logo from '../../public /assets/images/logo.png';
+import Logo from '../../public/assets/images/logo.png';
 import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 import { Button } from "../ui/button";
 import NavItems from "./NavItems";

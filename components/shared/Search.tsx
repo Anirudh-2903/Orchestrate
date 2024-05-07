@@ -2,7 +2,7 @@
 
 import React, { useState,useEffect } from 'react';
 import Image from 'next/image';
-import SearchLogo from '../../public /assets/icons/search.svg';
+import SearchLogo from '../../public/assets/icons/search.svg';
 import { Input } from '../ui/input';
 import { formUrlQuery, removeKeysFromQuery } from '@/lib/utils';
 import { useRouter, useSearchParams } from 'next/navigation';

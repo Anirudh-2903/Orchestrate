@@ -3,7 +3,7 @@
 import { useCallback, Dispatch, SetStateAction } from 'react'
 import { useDropzone } from '@uploadthing/react/hooks'
 import { generateClientDropzoneAccept } from 'uploadthing/client'
-import Upload from '../../public /assets/icons/upload.svg';
+import Upload from '../../public/assets/icons/upload.svg';
 import { Button } from '@/components/ui/button'
 import { convertFileToUrl } from '@/lib/utils'
 import Image from 'next/image';

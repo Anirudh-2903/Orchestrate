@@ -10,8 +10,8 @@ import {
 } from "@/components/ui/sheet";
 import { Separator } from "@/components/ui/separator"
 import Image from 'next/image';
-import menu from '../../public /assets/icons/menu.svg';
-import logo from '../../public /assets/images/logo.png';
+import menu from '../../public/assets/icons/menu.svg';
+import logo from '../../public/assets/images/logo.png';
 import NavItems from './NavItems';
 
 

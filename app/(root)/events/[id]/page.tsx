@@ -1,7 +1,7 @@
 import { getEventById, getRelatedEventsByCategory } from '@/lib/actions/event.actions';
 import { SearchParamProps } from '@/types';
-import Calendar from '../../../../public /assets/icons/calendar.svg';
-import Location from '../../../../public /assets/icons/location.svg';
+import Calendar from '../../../../public/assets/icons/calendar.svg';
+import Location from '../../../../public/assets/icons/location.svg';
 import Image from 'next/image';
 import React from 'react';
 import { formatDateTime } from '@/lib/utils';
