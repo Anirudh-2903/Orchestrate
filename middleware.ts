@@ -10,7 +10,9 @@ export default authMiddleware({
     ],
     ignoredRoutes:[
         '/icon.png',
-        '/assets',
+        '/assets/images/logo.png',
+        '/assets/images/dotted-pattern.png',
+        '/manifest.json',
         '/api/webhook/clerk',
         '/api/webhook/stripe',
         '/api/uploadthing',
