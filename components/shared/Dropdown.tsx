@@ -1,9 +1,9 @@
 import React, { startTransition, useState , useEffect} from 'react'
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue, } from "@/Components/ui/select"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue, } from "@/components/ui/select"
 import {
     AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter,
     AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger
-} from "@/Components/ui/alert-dialog"
+} from "@/components/ui/alert-dialog"
 
 import { ICategory } from '@/lib/database/models/category.model';
 import { Input } from '../ui/input';
