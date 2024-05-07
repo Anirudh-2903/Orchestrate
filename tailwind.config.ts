@@ -4,10 +4,11 @@ import { withUt } from 'uploadthing/tw';
 module.exports = withUt({
   darkMode: ['class'],
   content: [
-    './pages/**/*.{js,jsx,ts,tsx}',
-    './Components/**/*.{js,jsx,mdx,ts,tsx}',
-    './app/**/*.{js,jsx,mdx,ts,tsx}',
-    './src/**/*.{js,jsx,mdx,ts,tsx}',
+    './pages/**/*.{ts,tsx}',
+    './components/**/*.{ts,tsx}',
+    './Components/**/*.{ts,tsx}',
+    './app/**/*.{ts,tsx}',
+    './src/**/*.{ts,tsx}',
   ],
   theme: {
     container: {
