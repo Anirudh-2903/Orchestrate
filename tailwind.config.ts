@@ -5,7 +5,7 @@ module.exports = withUt({
   darkMode: ['class'],
   content: [
     './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
+    "./Components/**/*.{js,ts,jsx,tsx}",
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
   ],
