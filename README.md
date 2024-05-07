@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/-Stripe-black?style=for-the-badge&logoColor=white&logo=stripe&color=008CDD" alt="stripe" />
   </div>
 
-  <h3 align="center">Orchestrate - A Full Stack Next 14 Event Management App</h3>
+  <h3 align="center">Orchestrate - A Full Stack Next 14 Event Management Application</h3>
 
 </div>
 
@@ -63,7 +63,7 @@ Built on Next.js 14, the event management application stands as a comprehensive,
 
 👉 **New Category:** Dynamic categorization allows for the seamless addition of new event categories, keeping your platform adaptable.
 
-👉 **Checkout and Pay with Stripe:** Smooth and secure payment transactions using Stripe, enhancing user experience during the checkout process.    
+👉 **Checkout and Pay with Stripe:** Smooth and secure payment transactions using Stripe, enhancing user experience during the checkout process.
 
 👉 **Event Orders:** Comprehensive order management system, providing a clear overview of all event-related transactions.
 
