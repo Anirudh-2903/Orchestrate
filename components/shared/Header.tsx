@@ -11,10 +11,10 @@ const Header = () => {
     <header className="w-full border-b">
         <div className="wrapper flex items-center justify-between">
             <Link href="/" className="w-40"><Image src={Logo}
-             alt="Orchestrate Logo" priority style={{width: '160px',height: 'auto',}}/></Link>
+             alt="Orchestrate Logo" style={{width: '160px',height: 'auto',}}/></Link>
 
             <SignedIn>
-              <nav className="md:flex-between hidden w-full max-w-xs">
+              <nav className="md:flex-between max-md:hidden w-full max-w-xs">
                 <NavItems />
               </nav>
             </SignedIn>
@@ -22,7 +22,7 @@ const Header = () => {
 
              <div className="flex w-32 justify-end gap-3">
                 <SignedIn>
-                  <UserButton afterSignOutUrl="/" afterMultiSessionSingleSignOutUrl="/" />
+                  <UserButton afterSignOutUrl="/" />
                   <MobileNav />
                 </SignedIn>
                 <SignedOut>
