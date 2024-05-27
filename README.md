@@ -1,8 +1,6 @@
 <div align="center">
   <br />
-    <a  >
-      <img src="https://github.com/Anirudh-2903/Orchestrate/blob/main/homepage.png" alt="Project Banner">
-    </a>
+      <img src="https://github.com/Anirudh-2903/Project-Images/blob/master/Orchestrate/homepage.png" alt="Project Banner">
   <br />
 
   <div>
@@ -29,9 +27,11 @@
 
 Built on Next.js 14, the event management application stands as a comprehensive, full-stack platform for managing events. It serves as a hub, spotlighting diverse events taking place globally. Featuring seamless payment processing through Stripe, you have the capability to purchase tickets for any event or even initiate and manage your own events.
 
-
-
-
+<div align="center">
+  <br />
+      <img src="https://github.com/Anirudh-2903/Project-Images/blob/master/Orchestrate/homepage.png" alt="homepage">
+  <br />
+</div>
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -49,15 +49,38 @@ Built on Next.js 14, the event management application stands as a comprehensive,
 
 👉 **Authentication (CRUD) with Clerk:** User management through Clerk, ensuring secure and efficient authentication.
 
+<div align="center">
+  <br />
+      <img src="https://github.com/Anirudh-2903/Project-Images/blob/master/Orchestrate/signin.png" alt="signin">
+  <br />
+</div>
+
+
 👉 **Events (CRUD):** Comprehensive functionality for creating, reading, updating, and deleting events, giving users full control over event management.
 - **Create Events:** Users can effortlessly generate new events, providing essential details such as title, date, location, and any additional information.
 - **Read Events:** Seamless access to a detailed view of all events, allowing users to explore event specifics, including descriptions, schedules, and related information.
 - **Update Events:** Empowering users to modify event details dynamically, ensuring that event information remains accurate and up-to-date.
 - **Delete Events:** A straightforward process for removing events from the system, giving administrators the ability to manage and curate the platform effectively.
 
+<div align="center">
+  <br />
+      <img src="https://github.com/Anirudh-2903/Project-Images/blob/master/Orchestrate/events.png" alt="events">
+  <br />
+   <br />
+      <img src="https://github.com/Anirudh-2903/Project-Images/blob/master/Orchestrate/create_event.png" alt="create_event">
+   <br />
+</div>
+
+
 👉 **Related Events:** Smartly connects events that are related and displaying on the event details page, making it more engaging for users
 
 👉 **Organized Events:** Efficient organization of events, ensuring a structured and user-friendly display for the audience, i.e., showing events created by the user on the user profile
+
+<div align="center">
+  <br />
+      <img src="https://github.com/Anirudh-2903/Project-Images/blob/master/Orchestrate/profile.png" alt="profile">
+  <br />
+</div>
 
 👉 **Search & Filter:** Empowering users with a robust search and filter system, enabling them to easily find the events that match their preferences.
 
