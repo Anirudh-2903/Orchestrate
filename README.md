@@ -69,10 +69,22 @@ Built on Next.js 14, the event management application stands as a comprehensive,
    <br />
       <img src="https://github.com/Anirudh-2903/Project-Images/blob/master/Orchestrate/create_event.png" alt="create_event">
    <br />
+  <br />
+      <img src="https://github.com/Anirudh-2903/Project-Images/blob/master/Orchestrate/update_event.png" alt="update_event">
+   <br />
 </div>
 
 
 👉 **Related Events:** Smartly connects events that are related and displaying on the event details page, making it more engaging for users
+
+<div align="center">
+  <br />
+      <img src="https://github.com/Anirudh-2903/Project-Images/blob/master/Orchestrate/event_details.png" alt="event_details">
+  <br />
+  <br />
+      <img src="https://github.com/Anirudh-2903/Project-Images/blob/master/Orchestrate/related.png" alt="related">
+  <br />
+</div>
 
 👉 **Organized Events:** Efficient organization of events, ensuring a structured and user-friendly display for the audience, i.e., showing events created by the user on the user profile
 
@@ -80,15 +92,30 @@ Built on Next.js 14, the event management application stands as a comprehensive,
   <br />
       <img src="https://github.com/Anirudh-2903/Project-Images/blob/master/Orchestrate/profile.png" alt="profile">
   <br />
+  <br />
+      <img src="https://github.com/Anirudh-2903/Project-Images/blob/master/Orchestrate/events_organized.png" alt="events_organized">
+  <br />
 </div>
 
 👉 **Search & Filter:** Empowering users with a robust search and filter system, enabling them to easily find the events that match their preferences.
+
+<div align="center">
+  <br />
+      <img src="https://github.com/Anirudh-2903/Project-Images/blob/master/Orchestrate/search&filter.png" alt="search&filter">
+  <br />
+</div>
 
 👉 **New Category:** Dynamic categorization allows for the seamless addition of new event categories, keeping your platform adaptable.
 
 👉 **Checkout and Pay with Stripe:** Smooth and secure payment transactions using Stripe, enhancing user experience during the checkout process.
 
 👉 **Event Orders:** Comprehensive order management system, providing a clear overview of all event-related transactions.
+
+<div align="center">
+  <br />
+      <img src="https://github.com/Anirudh-2903/Project-Images/blob/master/Orchestrate/orders.png" alt="orders">
+  <br />
+</div>
 
 👉 **Search Orders:** Quick and efficient search functionality for orders, facilitating easy tracking and management.
 
