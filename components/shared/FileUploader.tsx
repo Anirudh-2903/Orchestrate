@@ -1,6 +1,6 @@
 'use client'
 
-import { useCallback, Dispatch, SetStateAction } from 'react'
+import { useCallback } from 'react'
 import { useDropzone } from '@uploadthing/react/hooks'
 import { generateClientDropzoneAccept } from 'uploadthing/client'
 import Upload from '../../public/assets/icons/upload.svg';
@@ -9,16 +9,16 @@ import { convertFileToUrl } from '@/lib/utils'
 import Image from 'next/image';
 
 type FileUploaderProps = {
-  onFieldChange: (url: string) => void
-  imageUrl: string
-  setFiles: Dispatch<SetStateAction<File[]>>
-}
+  imageUrl: string;
+  onFieldChange(url: string) : void;
+  setFiles(files: File[]) : void;
+};
 
 export function FileUploader({ imageUrl, onFieldChange, setFiles }: FileUploaderProps) {
   const onDrop = useCallback((acceptedFiles: File[]) => {
-    setFiles(acceptedFiles)
-    onFieldChange(convertFileToUrl(acceptedFiles[0]))
-  }, [])
+    setFiles(acceptedFiles); // Call the handler to update files
+    onFieldChange(convertFileToUrl(acceptedFiles[0]));
+  }, [setFiles, onFieldChange]);
 
   const { getRootProps, getInputProps } = useDropzone({
     onDrop,
