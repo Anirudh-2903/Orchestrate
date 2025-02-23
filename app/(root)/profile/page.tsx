@@ -4,13 +4,14 @@ import { getEventsByUser } from '@/lib/actions/event.actions';
 import { getOrdersByUser } from '@/lib/actions/order.actions';
 import { IOrder } from '@/lib/database/models/order.model';
 import { SearchParamProps } from '@/types';
-import { auth } from '@clerk/nextjs';
+import { auth } from '@clerk/nextjs/server';
 import Link from 'next/link';
 import React from 'react'
 
 const ProfilePage = async ({searchParams}: SearchParamProps) => {
 
-  const {sessionClaims} = auth();
+  // @ts-ignore
+    const {sessionClaims} = auth();
   const userId = sessionClaims?.userId as string;
 
   const ordersPage = Number(searchParams?.ordersPage) || 1;

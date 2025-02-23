@@ -5,8 +5,7 @@ import Link from 'next/link';
 import React from 'react'
 import Search from '../../public/assets/icons/arrow.svg';
 import Edit from '../../public/assets/icons/edit.svg';
-import { auth } from '@clerk/nextjs';
-import { Delete } from 'lucide-react';
+import { auth } from '@clerk/nextjs/server';
 import { DeleteConfirmation } from './DeleteConfirmation';
 
 type CardProps = {
@@ -17,7 +16,8 @@ type CardProps = {
 
 const Card = ({event,hasOrderLink,hidePrice}: CardProps) => {
 
-  const {sessionClaims } = auth();
+  // @ts-ignore
+    const {sessionClaims } = auth();
   const userId = sessionClaims?.userId as string;
   const isEventCreator = userId === event.organizer._id.toString();
 

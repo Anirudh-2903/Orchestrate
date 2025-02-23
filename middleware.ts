@@ -1,24 +1,17 @@
-import { authMiddleware } from "@clerk/nextjs";
+// @ts-ignore
+import { clerkMiddleware, createRouteMatcher } from '@clerk/nextjs/server'
 
-export default authMiddleware({
-    publicRoutes:[
-        '/',
-        '/events/:id',
-        '/api/webhook/clerk',
-        '/api/webhook/stripe',
-        '/api/uploadthing',
-    ],
-    ignoredRoutes:[
-        '/icon.png',
-        '/assets/images/logo.png',
-        '/assets/images/dotted-pattern.png',
-        '/manifest.json',
-        '/api/webhook/clerk',
-        '/api/webhook/stripe',
-        '/api/uploadthing',
-    ]
-});
+const isProtectedRoute = createRouteMatcher(["/events/create","/profile"])
+
+export default clerkMiddleware(async (auth: { protect: () => any }, req: any) => {
+    if (isProtectedRoute(req)) await auth.protect()
+})
 
 export const config = {
-  matcher: ["/((?!.+.[w]+$|_next).*)", "/", "/(api|trpc)(.*)"],
-};
+    matcher: [
+        // Skip Next.js internals and all static files, unless found in search params
+        '/((?!_next|[^?]*\\.(?:html?|css|js(?!on)|jpe?g|webp|png|gif|svg|ttf|woff2?|ico|csv|docx?|xlsx?|zip|webmanifest)).*)',
+        // Always run for API routes
+        '/(api|trpc)(.*)',
+    ],
+}
